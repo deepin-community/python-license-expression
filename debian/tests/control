@@ -1,0 +1,2 @@
+Tests: pytest
+Depends: python3-license-expression, python3-all, python3-setuptools, python3-pytest

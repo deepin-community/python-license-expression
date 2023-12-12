@@ -1,5 +1,40 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-license-expression (30.1.1-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version 30.1.1
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Stephan Lachnit <stephanlachnit@debian.org>  Sun, 29 Oct 2023 11:06:44 +0100
+
+python-license-expression (30.1.0-1) unstable; urgency=medium
+
+  * New upstream version 30.1.0
+  * Build with pybuild-plugin-pyproject
+  * Update standards version to 4.6.2, no changes needed
+
+ -- Stephan Lachnit <stephanlachnit@debian.org>  Sun, 22 Jan 2023 15:55:59 +0100
+
+python-license-expression (30.0.0-1) unstable; urgency=medium
+
+  * New upstream version 30.0.0
+  * Update standards version to 4.6.1, no changes needed
+
+ -- Stephan Lachnit <stephanlachnit@debian.org>  Fri, 27 May 2022 12:17:43 +0200
+
+python-license-expression (21.6.14-2) unstable; urgency=medium
+
+  * add autopkgtest
+
+ -- Stephan Lachnit <stephanlachnit@debian.org>  Mon, 29 Nov 2021 23:21:35 +0100
+
+python-license-expression (21.6.14-1) unstable; urgency=medium
+
+  * Source rename
+  * New upstream version 21.6.14 (Closes: #997876)
+  * Fix watch file
+
+ -- Stephan Lachnit <stephanlachnit@debian.org>  Mon, 08 Nov 2021 14:34:39 +0100
+
+license-expression (1.2+ds1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #976143)
+
+ -- Stephan Lachnit <stephanlachnit@protonmail.com>  Mon, 30 Nov 2020 13:22:26 +0100
