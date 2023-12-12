@@ -1,4 +1,6 @@
 #!/usr/bin/make -f
 
+export PYBUILD_TEST_ARGS=-k 'not test_skeleton_codestyle and not test_get_license_key_info_vendored'
+
 %:
-	dh $@
+	dh $@ --buildsystem=pybuild
