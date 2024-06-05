@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [tool.setuptools_scm]
 # this is used populated when creating a git archive
 # and when there is .git dir and/or there is no git installed
-fallback_version = "9999.dd54f51-2023-05-26"
+fallback_version = "9999.c20b3f6-2024-03-18"
 
 [tool.pytest.ini_options]
 norecursedirs = [
